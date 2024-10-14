@@ -1,4 +1,4 @@
-# FinBERT-Financial-Sentiment-Analyzer
+# FinBERT Financial Sentiment Analyzer
 
 FinBERT is a specialized BERT model pretrained from scratch, aimed at gaining insights from companies' earnings calls. The model has been trained and fine-tuned to excel at financial sentiment analysis, offering a robust tool for processing financial news, reports, and other text sources.
 
