@@ -2,18 +2,19 @@
 
 FinBERT is a specialized BERT model pretrained from scratch, aimed at gaining insights from companies' earnings calls. The model has been trained and fine-tuned to excel at financial sentiment analysis, offering a robust tool for processing financial news, reports, and other text sources.
 
-Pretraining: FinBERT was pretrained from scratch on a large subset of Wikipedia and over 400,000 financial articles.
-Finetuning: The model was finetuned on the SST-2 dataset for sentiment analysis, followed by finetuning on FiQA and additional financial sentiment datasets.
-Implementation: FinBERT is built using Python, leveraging Keras and TensorFlow for deep learning workflows.
-Performance: The model achieved an accuracy of 93% on the test dataset.
+Key Features: <br>
+Pretraining: FinBERT was pretrained from scratch on a large subset of Wikipedia and over 400,000 financial articles.<br>
+Finetuning: The model was finetuned on the SST-2 dataset for sentiment analysis, followed by finetuning on FiQA and additional financial sentiment datasets.<br>
+Implementation: FinBERT is built using Python, leveraging Keras and TensorFlow for deep learning workflows.<br>
+Performance: The model achieved an accuracy of 93% on the test dataset.<br>
 
 Model Structure:<br>
-Pretraining Batch Size: 128
-Finetuning Batch Size: 32
-Sequence Length: 128
-Model Layers: 8 Transformer layers
-Model Dimension: 512
-Dropout: 0.1
+Pretraining Batch Size: 128<br>
+Finetuning Batch Size: 32<br>
+Sequence Length: 128<br>
+Model Layers: 8 Transformer layers<br>
+Model Dimension: 512<br>
+Dropout: 0.1<br>
 
 Install dependencies:
 ```
