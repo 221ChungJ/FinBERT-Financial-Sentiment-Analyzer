@@ -18,24 +18,28 @@ Model Dimension: 512
 Dropout: 0.1
 
 Install dependencies:
-
+```
 pip install tensorflow 
-
+```
 
 Usage
 To use the pretrained FinBERT model for sentiment analysis, you can use the provided inference script:
 
 
 # Load the model
+```
 from tensorflow import keras
 
 model = tf.keras.models.load_model("final_model.keras", compile=True)
+```
 
 # Run inference
+```
 SENTIMENT_MAPPING = {2: 'neutral', 1: 'positive', 0: 'negative'}
 
 prediction = restored_model.predict(tf.constant(["Pre-tax gain totaled 0.3 million, compared to a loss of euro 8 million in the first quarter of 2005"]))
 predicted_sentiment = SENTIMENT_MAPPING[tf.argmax(prediction, axis=1).numpy()[0]]
 print(predicted_sentiment)
+```
 
 
