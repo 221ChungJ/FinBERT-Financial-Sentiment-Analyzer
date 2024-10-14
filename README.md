@@ -19,17 +19,16 @@ Dropout: 0.1
 
 Install dependencies:
 
-'''
 pip install tensorflow 
-'''
+
 
 Usage
 To use the pretrained FinBERT model for sentiment analysis, you can use the provided inference script:
 
-'''
-from tensorflow import keras
 
 # Load the model
+from tensorflow import keras
+
 model = tf.keras.models.load_model("final_model.keras", compile=True)
 
 # Run inference
