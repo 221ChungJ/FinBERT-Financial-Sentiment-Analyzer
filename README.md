@@ -22,8 +22,8 @@ Install dependencies:
 pip install tensorflow 
 ```
 
-Usage
-To use the pretrained FinBERT model for sentiment analysis, you can use the provided inference script:
+# Usage
+To use the pretrained FinBERT model for sentiment analysis, download the model and use the provided inference script:
 
 
 # Load the model
