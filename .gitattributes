@@ -1,0 +1,9 @@
+.paraquet filter=lfs diff=lfs merge=lfs -text
+.keras filter=lfs diff=lfs merge=lfs -text
+.gzip filter=lfs diff=lfs merge=lfs -text
+*.paraquet.gzip filter=lfs diff=lfs merge=lfs -text
+*.gzip filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.keras filter=lfs diff=lfs merge=lfs -text
+*.paraquet filter=lfs diff=lfs merge=lfs -text
+*.parquet.gzip filter=lfs diff=lfs merge=lfs -text
