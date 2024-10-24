@@ -33,7 +33,7 @@ from tensorflow import keras
 model = keras.models.load_model("final_model.keras", compile=True)
 ```
 
-# Run inference
+# Run Inference
 ```
 SENTIMENT_MAPPING = {2: 'neutral', 1: 'positive', 0: 'negative'}
 
